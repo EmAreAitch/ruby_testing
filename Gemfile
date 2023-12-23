@@ -9,4 +9,11 @@ gem 'rspec-core', '3.9.2'
 gem 'rspec-expectations', '3.9.2'
 gem 'rspec-mocks', '3.9.1'
 gem 'rspec-support', '3.9.3'
-gem 'rubocop', '0.82.0'
+
+gem "rubocop", "~> 0.82.0"
+
+gem "ruby-lsp", "~> 0.13.2"
+
+gem "solargraph", "~> 0.48.0"
+
+gem "rufo", "~> 0.16.3"

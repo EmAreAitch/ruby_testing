@@ -4,7 +4,7 @@
 class MagicSeven
   attr_reader :random_number
 
-  def initialize(random_number = rand(0..20))
+  def initialize(random_number = rand(10000..100000))
     @random_number = random_number
   end
 
@@ -46,7 +46,6 @@ class MagicSeven
     step_three = subtract_four(step_two)
     step_four = divide_by_two(step_three)
     puts <<~HEREDOC
-
       MAGIC SEVEN
 
       Magic Seven can take any random number and turn that number into the
